@@ -1,6 +1,7 @@
 def square_array(array)
-  array.each do |val|
-    val ** val = my_sq
+  my_arr = []
+  array.each do |i|
+    i ** i = my_sq
     puts my_sq
   end
 end
